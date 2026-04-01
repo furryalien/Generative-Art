@@ -1,10 +1,13 @@
 from graphics.Graphics import setup, export
 from graphics.Geometry import background, color, stroke, Line, line_width
+from graphics.LineWidth import init_line_width, apply_line_width
+import graphics.Config as config
 import math
 import random
 
-# Some variables
-height, width = 1000, 1000
+# Some variables - can be overridden by paper size argument
+width, height = config.paper_size if config.paper_size else (1000, 1000)
+height, width = width, height  # Note: original had these swapped
 grid_size = 100
 border, mag_border = 50, 450
 step_x, step_y = (width//grid_size), (height//grid_size)
@@ -62,6 +65,7 @@ class Particle:
         if self.draw_stroke is not False:
             line_width(0.9)
             Line(self.lx, self.ly, self.x, self.y)
+            apply_line_width()
             stroke()
 
 
@@ -130,6 +134,7 @@ def draw():
 
 def main():
     setup(width, height)
+    init_line_width(config.line_width_mode, config.line_width_value)
     draw()
     export()
 

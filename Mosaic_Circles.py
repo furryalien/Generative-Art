@@ -3,10 +3,12 @@ from graphics.Graphics import setup, export
 from graphics.Geometry import Line, background, color, stroke
 from graphics.Helpers import map
 from graphics.Generators import NoiseLoop
+from graphics.LineWidth import init_line_width, apply_line_width
 import math
 import random
 
-width, height = 1000, 1000
+# Canvas dimensions - can be overridden by paper size argument
+width, height = config.paper_size if config.paper_size else (1000, 1000)
 
 
 def draw():
@@ -37,6 +39,7 @@ def draw():
                     # Think of a better way to do this
                     config.Context.line_to(x, y)
                 config.Context.close_path()
+                apply_line_width()
                 stroke()
 
                 if layer != 0:
@@ -51,11 +54,13 @@ def draw():
                         xx = r * math.cos(math.radians(i*num_lines+offset)) + center_x
                         yy = r * math.sin(math.radians(i*num_lines+offset)) + center_y
                         Line(xx, yy, x, y)
+                        apply_line_width()
                         stroke()
 
 
 def main():
     setup(width, height)
+    init_line_width(config.line_width_mode, config.line_width_value)
     draw()
     export()
 

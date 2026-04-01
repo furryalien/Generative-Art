@@ -41,11 +41,10 @@ Write-Host "  Installing packages (this may take a few minutes)..." -ForegroundC
 # Install binary packages first (numpy, pycairo need prebuilt wheels on Windows)
 & ".\venv\Scripts\pip.exe" install numpy pycairo --only-binary :all: 2>&1 | Out-Null
 # Install other pure Python packages
-& ".\venv\Scripts\pip.exe" install docopt tweepy 2>&1 | Out-Null
+& ".\venv\Scripts\pip.exe" install docopt tweepy perlin-noise 2>&1 | Out-Null
 
 if ($LASTEXITCODE -eq 0) {
-    Write-Host "  ✓ Core dependencies installed successfully" -ForegroundColor Green
-    Write-Host "  ℹ Note: 'noise' package skipped (requires C++ build tools)" -ForegroundColor Cyan
+    Write-Host "  ✓ All dependencies installed successfully" -ForegroundColor Green
 } else {
     Write-Host "  ⚠ Some dependencies may have failed to install" -ForegroundColor Yellow
 }
@@ -65,7 +64,7 @@ Write-Host ""
 Write-Host "[5/5] Testing SVG generation..." -ForegroundColor Yellow
 
 # Test with multiple scripts
-$testScripts = @("Line_Grid.py", "Vertical_Lines.py", "Circular.py")
+$testScripts = @("Line_Grid.py", "Vertical_Lines.py", "Circular.py", "Mosaic_Circles.py")
 $successCount = 0
 
 foreach ($script in $testScripts) {

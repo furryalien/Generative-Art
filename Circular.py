@@ -2,10 +2,13 @@ from graphics.Graphics import setup, export
 from graphics.Geometry import background, color, stroke
 from graphics.Geometry import Line as draw_line
 from graphics.Vector import Vector as vec2
+from graphics.LineWidth import init_line_width, apply_line_width
+import graphics.Config as config
 import math
 import random
 
-width, height = 1000, 1000
+# Canvas dimensions - can be overridden by paper size argument
+width, height = config.paper_size if config.paper_size else (1000, 1000)
 
 
 # Line class
@@ -19,6 +22,7 @@ class Line:
     def draw(self):
         color(0.15, 0.15, 0.15, 1)
         draw_line(self.p0[0], self.p0[1], self.p1[0], self.p1[1])
+        apply_line_width()
         stroke()
 
     def update(self):
@@ -128,6 +132,7 @@ def draw():
 
 def main():
     setup(width, height)
+    init_line_width(config.line_width_mode, config.line_width_value)
     draw()
     export()
 

@@ -1,0 +1,968 @@
+======================================================================
+AGGRESSIVE OPTIMIZER - Target: Overlap Score < 100
+======================================================================
+
+Generated 238 formula variations to test
+
+[1/238]   Testing: Formula_000
+    -existing_gear.rotation
+    Avg: 719, Best: 554, Worst: 888
+    >> NEW BEST: 554
+
+[2/238]   Testing: Formula_001
+    -existing_gear.rotation + tooth_angle / 2
+    Avg: 1019, Best: 776, Worst: 1176
+
+[3/238]   Testing: Formula_002
+    -existing_gear.rotation - tooth_angle / 2
+    Avg: 719, Best: 546, Worst: 910
+    >> NEW BEST: 546
+
+[4/238]   Testing: Formula_003
+    -existing_gear.rotation + tooth_angle / 4
+    Avg: 605, Best: 502, Worst: 752
+    >> NEW BEST: 502
+
+[5/238]   Testing: Formula_004
+    -existing_gear.rotation - tooth_angle / 4
+    Avg: 797, Best: 588, Worst: 920
+
+[6/238]   Testing: Formula_005
+    -existing_gear.rotation + tooth_angle / 3
+    Avg: 1035, Best: 932, Worst: 1164
+
+[7/238]   Testing: Formula_006
+    -existing_gear.rotation - tooth_angle / 3
+    Avg: 777, Best: 624, Worst: 926
+
+[8/238]   Testing: Formula_007
+    -existing_gear.rotation + angle
+    Avg: 700, Best: 652, Worst: 740
+
+[9/238]   Testing: Formula_008
+    -existing_gear.rotation + angle + tooth_angle / 2
+    Avg: 615, Best: 520, Worst: 772
+
+[10/238]   Testing: Formula_009
+    -existing_gear.rotation + angle - tooth_angle / 2
+    Avg: 561, Best: 558, Worst: 562
+
+[11/238]   Testing: Formula_010
+    -existing_gear.rotation + angle + tooth_angle / 4
+    Avg: 704, Best: 620, Worst: 784
+
+[12/238]   Testing: Formula_011
+    -existing_gear.rotation + angle - tooth_angle / 4
+    Avg: 743, Best: 636, Worst: 930
+
+[13/238]   Testing: Formula_012
+    -existing_gear.rotation + angle + tooth_angle / 3
+    Avg: 737, Best: 708, Worst: 772
+
+[14/238]   Testing: Formula_013
+    -existing_gear.rotation + angle - tooth_angle / 3
+    Avg: 814, Best: 456, Worst: 1044
+    >> NEW BEST: 456
+
+[15/238]   Testing: Formula_014
+    -existing_gear.rotation - angle
+    Avg: 804, Best: 532, Worst: 1132
+
+[16/238]   Testing: Formula_015
+    -existing_gear.rotation - angle + tooth_angle / 2
+    Avg: 880, Best: 814, Worst: 954
+
+[17/238]   Testing: Formula_016
+    -existing_gear.rotation - angle - tooth_angle / 2
+    Avg: 803, Best: 566, Worst: 1076
+
+[18/238]   Testing: Formula_017
+    -existing_gear.rotation - angle + tooth_angle / 4
+    Avg: 683, Best: 580, Worst: 880
+
+[19/238]   Testing: Formula_018
+    -existing_gear.rotation - angle - tooth_angle / 4
+    Avg: 650, Best: 502, Worst: 780
+
+[20/238]   Testing: Formula_019
+    -existing_gear.rotation - angle + tooth_angle / 3
+    Avg: 869, Best: 536, Worst: 1132
+
+[21/238]   Testing: Formula_020
+    -existing_gear.rotation - angle - tooth_angle / 3
+    Avg: 765, Best: 536, Worst: 1056
+
+[22/238]   Testing: Formula_021
+    -existing_gear.rotation + 2*angle
+    Avg: 520, Best: 472, Worst: 616
+
+[23/238]   Testing: Formula_022
+    -existing_gear.rotation + 2*angle + tooth_angle / 2
+    Avg: 734, Best: 498, Worst: 1180
+
+[24/238]   Testing: Formula_023
+    -existing_gear.rotation + 2*angle - tooth_angle / 2
+    Avg: 659, Best: 582, Worst: 780
+
+[25/238]   Testing: Formula_024
+    -existing_gear.rotation + 2*angle + tooth_angle / 4
+    Avg: 791, Best: 520, Worst: 1108
+
+[26/238]   Testing: Formula_025
+    -existing_gear.rotation + 2*angle - tooth_angle / 4
+    Avg: 718, Best: 546, Worst: 916
+
+[27/238]   Testing: Formula_026
+    -existing_gear.rotation + 2*angle + tooth_angle / 3
+    Avg: 807, Best: 600, Worst: 924
+
+[28/238]   Testing: Formula_027
+    -existing_gear.rotation + 2*angle - tooth_angle / 3
+    Avg: 704, Best: 576, Worst: 884
+
+[29/238]   Testing: Formula_028
+    -existing_gear.rotation - 2*angle
+    Avg: 596, Best: 516, Worst: 660
+
+[30/238]   Testing: Formula_029
+    -existing_gear.rotation - 2*angle + tooth_angle / 2
+    Avg: 685, Best: 600, Worst: 834
+
+[31/238]   Testing: Formula_030
+    -existing_gear.rotation - 2*angle - tooth_angle / 2
+    Avg: 861, Best: 688, Worst: 1140
+
+[32/238]   Testing: Formula_031
+    -existing_gear.rotation - 2*angle + tooth_angle / 4
+    Avg: 1062, Best: 930, Worst: 1144
+
+[33/238]   Testing: Formula_032
+    -existing_gear.rotation - 2*angle - tooth_angle / 4
+    Avg: 647, Best: 502, Worst: 736
+
+[34/238]   Testing: Formula_033
+    -existing_gear.rotation - 2*angle + tooth_angle / 3
+    Avg: 694, Best: 490, Worst: 808
+
+[35/238]   Testing: Formula_034
+    -existing_gear.rotation - 2*angle - tooth_angle / 3
+    Avg: 573, Best: 494, Worst: 696
+
+[36/238]   Testing: Formula_035
+    -existing_gear.rotation + 3*angle
+    Avg: 905, Best: 660, Worst: 1064
+
+[37/238]   Testing: Formula_036
+    -existing_gear.rotation + 3*angle + tooth_angle / 2
+    Avg: 645, Best: 460, Worst: 858
+
+[38/238]   Testing: Formula_037
+    -existing_gear.rotation + 3*angle - tooth_angle / 2
+    Avg: 577, Best: 456, Worst: 708
+
+[39/238]   Testing: Formula_038
+    -existing_gear.rotation + 3*angle + tooth_angle / 4
+    Avg: 637, Best: 460, Worst: 744
+
+[40/238]   Testing: Formula_039
+    -existing_gear.rotation + 3*angle - tooth_angle / 4
+    Avg: 719, Best: 498, Worst: 944
+
+[41/238]   Testing: Formula_040
+    -existing_gear.rotation + 3*angle + tooth_angle / 3
+    Avg: 703, Best: 468, Worst: 1124
+
+[42/238]   Testing: Formula_041
+    -existing_gear.rotation + 3*angle - tooth_angle / 3
+    Avg: 608, Best: 460, Worst: 744
+
+[43/238]   Testing: Formula_042
+    -existing_gear.rotation - 3*angle
+    Avg: 871, Best: 628, Worst: 996
+
+[44/238]   Testing: Formula_043
+    -existing_gear.rotation - 3*angle + tooth_angle / 2
+    Avg: 819, Best: 550, Worst: 1060
+
+[45/238]   Testing: Formula_044
+    -existing_gear.rotation - 3*angle - tooth_angle / 2
+    Avg: 780, Best: 516, Worst: 1052
+
+[46/238]   Testing: Formula_045
+    -existing_gear.rotation - 3*angle + tooth_angle / 4
+    Avg: 673, Best: 490, Worst: 784
+
+[47/238]   Testing: Formula_046
+    -existing_gear.rotation - 3*angle - tooth_angle / 4
+    Avg: 700, Best: 516, Worst: 972
+
+[48/238]   Testing: Formula_047
+    -existing_gear.rotation - 3*angle + tooth_angle / 3
+    Avg: 743, Best: 672, Worst: 780
+
+[49/238]   Testing: Formula_048
+    -existing_gear.rotation - 3*angle - tooth_angle / 3
+    Avg: 928, Best: 660, Worst: 1184
+
+[50/238]   Testing: Formula_049
+    -existing_gear.rotation + math.pi
+    Avg: 739, Best: 494, Worst: 938
+
+[51/238]   Testing: Formula_050
+    -existing_gear.rotation + math.pi + tooth_angle / 2
+    Avg: 752, Best: 612, Worst: 880
+
+[52/238]   Testing: Formula_051
+    -existing_gear.rotation + math.pi - tooth_angle / 2
+    Avg: 669, Best: 486, Worst: 776
+
+[53/238]   Testing: Formula_052
+    -existing_gear.rotation + math.pi + tooth_angle / 4
+    Avg: 818, Best: 490, Worst: 992
+
+[54/238]   Testing: Formula_053
+    -existing_gear.rotation + math.pi - tooth_angle / 4
+    Avg: 654, Best: 554, Worst: 736
+
+[55/238]   Testing: Formula_054
+    -existing_gear.rotation + math.pi + tooth_angle / 3
+    Avg: 655, Best: 460, Worst: 814
+
+[56/238]   Testing: Formula_055
+    -existing_gear.rotation + math.pi - tooth_angle / 3
+    Avg: 749, Best: 528, Worst: 884
+
+[57/238]   Testing: Formula_056
+    -existing_gear.rotation - math.pi
+    Avg: 590, Best: 456, Worst: 726
+
+[58/238]   Testing: Formula_057
+    -existing_gear.rotation - math.pi + tooth_angle / 2
+    Avg: 617, Best: 464, Worst: 736
+
+[59/238]   Testing: Formula_058
+    -existing_gear.rotation - math.pi - tooth_angle / 2
+    Avg: 1051, Best: 826, Worst: 1200
+
+[60/238]   Testing: Formula_059
+    -existing_gear.rotation - math.pi + tooth_angle / 4
+    Avg: 1047, Best: 1004, Worst: 1120
+
+[61/238]   Testing: Formula_060
+    -existing_gear.rotation - math.pi - tooth_angle / 4
+    Avg: 533, Best: 460, Worst: 616
+
+[62/238]   Testing: Formula_061
+    -existing_gear.rotation - math.pi + tooth_angle / 3
+    Avg: 781, Best: 490, Worst: 1024
+
+[63/238]   Testing: Formula_062
+    -existing_gear.rotation - math.pi - tooth_angle / 3
+    Avg: 739, Best: 540, Worst: 972
+
+[64/238]   Testing: Formula_063
+    -existing_gear.rotation + math.pi + angle
+    Avg: 793, Best: 536, Worst: 926
+
+[65/238]   Testing: Formula_064
+    -existing_gear.rotation + math.pi + angle + tooth_angle / 2
+    Avg: 974, Best: 780, Worst: 1212
+
+[66/238]   Testing: Formula_065
+    -existing_gear.rotation + math.pi + angle - tooth_angle / 2
+    Avg: 849, Best: 486, Worst: 1188
+
+[67/238]   Testing: Formula_066
+    -existing_gear.rotation + math.pi + angle + tooth_angle / 4
+    Avg: 729, Best: 506, Worst: 984
+
+[68/238]   Testing: Formula_067
+    -existing_gear.rotation + math.pi + angle - tooth_angle / 4
+    Avg: 911, Best: 822, Worst: 980
+
+[69/238]   Testing: Formula_068
+    -existing_gear.rotation + math.pi + angle + tooth_angle / 3
+    Avg: 779, Best: 588, Worst: 1004
+
+[70/238]   Testing: Formula_069
+    -existing_gear.rotation + math.pi + angle - tooth_angle / 3
+    Avg: 907, Best: 808, Worst: 976
+
+[71/238]   Testing: Formula_070
+    -existing_gear.rotation + math.pi - angle
+    Avg: 831, Best: 456, Worst: 1112
+
+[72/238]   Testing: Formula_071
+    -existing_gear.rotation + math.pi - angle + tooth_angle / 2
+    Avg: 646, Best: 558, Worst: 760
+
+[73/238]   Testing: Formula_072
+    -existing_gear.rotation + math.pi - angle - tooth_angle / 2
+    Avg: 976, Best: 784, Worst: 1220
+
+[74/238]   Testing: Formula_073
+    -existing_gear.rotation + math.pi - angle + tooth_angle / 4
+    Avg: 741, Best: 562, Worst: 876
+
+[75/238]   Testing: Formula_074
+    -existing_gear.rotation + math.pi - angle - tooth_angle / 4
+    Avg: 611, Best: 456, Worst: 784
+
+[76/238]   Testing: Formula_075
+    -existing_gear.rotation + math.pi - angle + tooth_angle / 3
+    Avg: 1064, Best: 984, Worst: 1136
+
+[77/238]   Testing: Formula_076
+    -existing_gear.rotation + math.pi - angle - tooth_angle / 3
+    Avg: 989, Best: 936, Worst: 1048
+
+[78/238]   Testing: Formula_077
+    -existing_gear.rotation - math.pi + angle
+    Avg: 939, Best: 818, Worst: 1060
+
+[79/238]   Testing: Formula_078
+    -existing_gear.rotation - math.pi + angle + tooth_angle / 2
+    Avg: 831, Best: 596, Worst: 1100
+
+[80/238]   Testing: Formula_079
+    -existing_gear.rotation - math.pi + angle - tooth_angle / 2
+    Avg: 957, Best: 928, Worst: 1008
+
+[81/238]   Testing: Formula_080
+    -existing_gear.rotation - math.pi + angle + tooth_angle / 4
+    Avg: 678, Best: 554, Worst: 768
+
+[82/238]   Testing: Formula_081
+    -existing_gear.rotation - math.pi + angle - tooth_angle / 4
+    Avg: 775, Best: 752, Worst: 796
+
+[83/238]   Testing: Formula_082
+    -existing_gear.rotation - math.pi + angle + tooth_angle / 3
+    Avg: 833, Best: 584, Worst: 992
+
+[84/238]   Testing: Formula_083
+    -existing_gear.rotation - math.pi + angle - tooth_angle / 3
+    Avg: 595, Best: 490, Worst: 768
+
+[85/238]   Testing: Formula_084
+    -existing_gear.rotation - math.pi - angle
+    Avg: 751, Best: 472, Worst: 984
+
+[86/238]   Testing: Formula_085
+    -existing_gear.rotation - math.pi - angle + tooth_angle / 2
+    Avg: 784, Best: 592, Worst: 1104
+
+[87/238]   Testing: Formula_086
+    -existing_gear.rotation - math.pi - angle - tooth_angle / 2
+    Avg: 964, Best: 834, Worst: 1136
+
+[88/238]   Testing: Formula_087
+    -existing_gear.rotation - math.pi - angle + tooth_angle / 4
+    Avg: 636, Best: 468, Worst: 776
+
+[89/238]   Testing: Formula_088
+    -existing_gear.rotation - math.pi - angle - tooth_angle / 4
+    Avg: 759, Best: 460, Worst: 926
+
+[90/238]   Testing: Formula_089
+    -existing_gear.rotation - math.pi - angle + tooth_angle / 3
+    Avg: 844, Best: 772, Worst: 880
+
+[91/238]   Testing: Formula_090
+    -existing_gear.rotation - math.pi - angle - tooth_angle / 3
+    Avg: 808, Best: 596, Worst: 940
+
+[92/238]   Testing: Formula_091
+    -existing_gear.rotation + math.pi + 2*angle
+    Avg: 1029, Best: 974, Worst: 1092
+
+[93/238]   Testing: Formula_092
+    -existing_gear.rotation + math.pi + 2*angle + tooth_angle / 2
+    Avg: 970, Best: 822, Worst: 1108
+
+[94/238]   Testing: Formula_093
+    -existing_gear.rotation + math.pi + 2*angle - tooth_angle / 2
+    Avg: 821, Best: 554, Worst: 980
+
+[95/238]   Testing: Formula_094
+    -existing_gear.rotation + math.pi + 2*angle + tooth_angle / 4
+    Avg: 721, Best: 592, Worst: 796
+
+[96/238]   Testing: Formula_095
+    -existing_gear.rotation + math.pi + 2*angle - tooth_angle / 4
+    Avg: 906, Best: 748, Worst: 1048
+
+[97/238]   Testing: Formula_096
+    -existing_gear.rotation + math.pi + 2*angle + tooth_angle / 3
+    Avg: 845, Best: 728, Worst: 1048
+
+[98/238]   Testing: Formula_097
+    -existing_gear.rotation + math.pi + 2*angle - tooth_angle / 3
+    Avg: 693, Best: 588, Worst: 792
+
+[99/238]   Testing: Formula_098
+    -existing_gear.rotation + math.pi - 2*angle
+    Avg: 777, Best: 592, Worst: 1080
+
+[100/238]   Testing: Formula_099
+    -existing_gear.rotation + math.pi - 2*angle + tooth_angle / 2
+    Avg: 795, Best: 644, Worst: 1076
+
+[101/238]   Testing: Formula_100
+    -existing_gear.rotation + math.pi - 2*angle - tooth_angle / 2
+    Avg: 908, Best: 624, Worst: 1116
+
+[102/238]   Testing: Formula_101
+    -existing_gear.rotation + math.pi - 2*angle + tooth_angle / 4
+    Avg: 644, Best: 544, Worst: 830
+
+[103/238]   Testing: Formula_102
+    -existing_gear.rotation + math.pi - 2*angle - tooth_angle / 4
+    Avg: 723, Best: 616, Worst: 918
+
+[104/238]   Testing: Formula_103
+    -existing_gear.rotation + math.pi - 2*angle + tooth_angle / 3
+    Avg: 801, Best: 704, Worst: 872
+
+[105/238]   Testing: Formula_104
+    -existing_gear.rotation + math.pi - 2*angle - tooth_angle / 3
+    Avg: 523, Best: 490, Worst: 588
+
+[106/238]   Testing: Formula_105
+    -existing_gear.rotation - math.pi + 2*angle
+    Avg: 713, Best: 510, Worst: 1112
+
+[107/238]   Testing: Formula_106
+    -existing_gear.rotation - math.pi + 2*angle + tooth_angle / 2
+    Avg: 641, Best: 520, Worst: 784
+
+[108/238]   Testing: Formula_107
+    -existing_gear.rotation - math.pi + 2*angle - tooth_angle / 2
+    Avg: 769, Best: 520, Worst: 920
+
+[109/238]   Testing: Formula_108
+    -existing_gear.rotation - math.pi + 2*angle + tooth_angle / 4
+    Avg: 875, Best: 772, Worst: 1040
+
+[110/238]   Testing: Formula_109
+    -existing_gear.rotation - math.pi + 2*angle - tooth_angle / 4
+    Avg: 638, Best: 546, Worst: 818
+
+[111/238]   Testing: Formula_110
+    -existing_gear.rotation - math.pi + 2*angle + tooth_angle / 3
+    Avg: 879, Best: 636, Worst: 1212
+
+[112/238]   Testing: Formula_111
+    -existing_gear.rotation - math.pi + 2*angle - tooth_angle / 3
+    Avg: 1131, Best: 1052, Worst: 1212
+
+[113/238]   Testing: Formula_112
+    -existing_gear.rotation - math.pi - 2*angle
+    Avg: 691, Best: 502, Worst: 946
+
+[114/238]   Testing: Formula_113
+    -existing_gear.rotation - math.pi - 2*angle + tooth_angle / 2
+    Avg: 803, Best: 592, Worst: 984
+
+[115/238]   Testing: Formula_114
+    -existing_gear.rotation - math.pi - 2*angle - tooth_angle / 2
+    Avg: 933, Best: 814, Worst: 1056
+
+[116/238]   Testing: Formula_115
+    -existing_gear.rotation - math.pi - 2*angle + tooth_angle / 4
+    Avg: 715, Best: 476, Worst: 988
+
+[117/238]   Testing: Formula_116
+    -existing_gear.rotation - math.pi - 2*angle - tooth_angle / 4
+    Avg: 808, Best: 780, Worst: 834
+
+[118/238]   Testing: Formula_117
+    -existing_gear.rotation - math.pi - 2*angle + tooth_angle / 3
+    Avg: 881, Best: 532, Worst: 1120
+
+[119/238]   Testing: Formula_118
+    -existing_gear.rotation - math.pi - 2*angle - tooth_angle / 3
+    Avg: 1049, Best: 1000, Worst: 1108
+
+[120/238]   Testing: Formula_119
+    existing_gear.rotation
+    Avg: 717, Best: 566, Worst: 992
+
+[121/238]   Testing: Formula_120
+    existing_gear.rotation + tooth_angle / 2
+    Avg: 721, Best: 516, Worst: 876
+
+[122/238]   Testing: Formula_121
+    existing_gear.rotation - tooth_angle / 2
+    Avg: 771, Best: 624, Worst: 944
+
+[123/238]   Testing: Formula_122
+    existing_gear.rotation + tooth_angle / 4
+    Avg: 799, Best: 596, Worst: 924
+
+[124/238]   Testing: Formula_123
+    existing_gear.rotation - tooth_angle / 4
+    Avg: 677, Best: 490, Worst: 780
+
+[125/238]   Testing: Formula_124
+    existing_gear.rotation + tooth_angle / 3
+    Avg: 780, Best: 596, Worst: 1068
+
+[126/238]   Testing: Formula_125
+    existing_gear.rotation - tooth_angle / 3
+    Avg: 893, Best: 740, Worst: 1008
+
+[127/238]   Testing: Formula_126
+    existing_gear.rotation + angle
+    Avg: 679, Best: 468, Worst: 1008
+
+[128/238]   Testing: Formula_127
+    existing_gear.rotation + angle + tooth_angle / 2
+    Avg: 822, Best: 728, Worst: 930
+
+[129/238]   Testing: Formula_128
+    existing_gear.rotation + angle - tooth_angle / 2
+    Avg: 711, Best: 536, Worst: 888
+
+[130/238]   Testing: Formula_129
+    existing_gear.rotation + angle + tooth_angle / 4
+    Avg: 807, Best: 664, Worst: 916
+
+[131/238]   Testing: Formula_130
+    existing_gear.rotation + angle - tooth_angle / 4
+    Avg: 757, Best: 558, Worst: 1032
+
+[132/238]   Testing: Formula_131
+    existing_gear.rotation + angle + tooth_angle / 3
+    Avg: 921, Best: 808, Worst: 1088
+
+[133/238]   Testing: Formula_132
+    existing_gear.rotation + angle - tooth_angle / 3
+    Avg: 971, Best: 744, Worst: 1180
+
+[134/238]   Testing: Formula_133
+    existing_gear.rotation - angle
+    Avg: 721, Best: 528, Worst: 928
+
+[135/238]   Testing: Formula_134
+    existing_gear.rotation - angle + tooth_angle / 2
+    Avg: 889, Best: 776, Worst: 1012
+
+[136/238]   Testing: Formula_135
+    existing_gear.rotation - angle - tooth_angle / 2
+    Avg: 675, Best: 588, Worst: 772
+
+[137/238]   Testing: Formula_136
+    existing_gear.rotation - angle + tooth_angle / 4
+    Avg: 750, Best: 574, Worst: 1044
+
+[138/238]   Testing: Formula_137
+    existing_gear.rotation - angle - tooth_angle / 4
+    Avg: 645, Best: 464, Worst: 918
+
+[139/238]   Testing: Formula_138
+    existing_gear.rotation - angle + tooth_angle / 3
+    Avg: 805, Best: 744, Worst: 884
+
+[140/238]   Testing: Formula_139
+    existing_gear.rotation - angle - tooth_angle / 3
+    Avg: 600, Best: 520, Worst: 748
+
+[141/238]   Testing: Formula_140
+    existing_gear.rotation + 2*angle
+    Avg: 798, Best: 546, Worst: 1048
+
+[142/238]   Testing: Formula_141
+    existing_gear.rotation + 2*angle + tooth_angle / 2
+    Avg: 897, Best: 826, Worst: 946
+
+[143/238]   Testing: Formula_142
+    existing_gear.rotation + 2*angle - tooth_angle / 2
+    Avg: 774, Best: 700, Worst: 834
+
+[144/238]   Testing: Formula_143
+    existing_gear.rotation + 2*angle + tooth_angle / 4
+    Avg: 623, Best: 468, Worst: 850
+
+[145/238]   Testing: Formula_144
+    existing_gear.rotation + 2*angle - tooth_angle / 4
+    Avg: 689, Best: 532, Worst: 768
+
+[146/238]   Testing: Formula_145
+    existing_gear.rotation + 2*angle + tooth_angle / 3
+    Avg: 855, Best: 464, Worst: 1108
+
+[147/238]   Testing: Formula_146
+    existing_gear.rotation + 2*angle - tooth_angle / 3
+    Avg: 518, Best: 486, Worst: 558
+
+[148/238]   Testing: Formula_147
+    existing_gear.rotation - 2*angle
+    Avg: 843, Best: 596, Worst: 1000
+
+[149/238]   Testing: Formula_148
+    existing_gear.rotation - 2*angle + tooth_angle / 2
+    Avg: 679, Best: 546, Worst: 884
+
+[150/238]   Testing: Formula_149
+    existing_gear.rotation - 2*angle - tooth_angle / 2
+    Avg: 824, Best: 524, Worst: 1164
+
+[151/238]   Testing: Formula_150
+    existing_gear.rotation - 2*angle + tooth_angle / 4
+    Avg: 839, Best: 616, Worst: 1068
+
+[152/238]   Testing: Formula_151
+    existing_gear.rotation - 2*angle - tooth_angle / 4
+    Avg: 881, Best: 672, Worst: 1052
+
+[153/238]   Testing: Formula_152
+    existing_gear.rotation - 2*angle + tooth_angle / 3
+    Avg: 984, Best: 976, Worst: 992
+
+[154/238]   Testing: Formula_153
+    existing_gear.rotation - 2*angle - tooth_angle / 3
+    Avg: 676, Best: 460, Worst: 784
+
+[155/238]   Testing: Formula_154
+    existing_gear.rotation + 3*angle
+    Avg: 940, Best: 740, Worst: 1076
+
+[156/238]   Testing: Formula_155
+    existing_gear.rotation + 3*angle + tooth_angle / 2
+    Avg: 992, Best: 772, Worst: 1140
+
+[157/238]   Testing: Formula_156
+    existing_gear.rotation + 3*angle - tooth_angle / 2
+    Avg: 811, Best: 628, Worst: 1132
+
+[158/238]   Testing: Formula_157
+    existing_gear.rotation + 3*angle + tooth_angle / 4
+    Avg: 828, Best: 664, Worst: 1052
+
+[159/238]   Testing: Formula_158
+    existing_gear.rotation + 3*angle - tooth_angle / 4
+    Avg: 599, Best: 510, Worst: 772
+
+[160/238]   Testing: Formula_159
+    existing_gear.rotation + 3*angle + tooth_angle / 3
+    Avg: 1121, Best: 1048, Worst: 1184
+
+[161/238]   Testing: Formula_160
+    existing_gear.rotation + 3*angle - tooth_angle / 3
+    Avg: 904, Best: 740, Worst: 1048
+
+[162/238]   Testing: Formula_161
+    existing_gear.rotation - 3*angle
+    Avg: 814, Best: 620, Worst: 996
+
+[163/238]   Testing: Formula_162
+    existing_gear.rotation - 3*angle + tooth_angle / 2
+    Avg: 892, Best: 668, Worst: 1004
+
+[164/238]   Testing: Formula_163
+    existing_gear.rotation - 3*angle - tooth_angle / 2
+    Avg: 731, Best: 456, Worst: 924
+
+[165/238]   Testing: Formula_164
+    existing_gear.rotation - 3*angle + tooth_angle / 4
+    Avg: 895, Best: 764, Worst: 974
+
+[166/238]   Testing: Formula_165
+    existing_gear.rotation - 3*angle - tooth_angle / 4
+    Avg: 913, Best: 732, Worst: 1052
+
+[167/238]   Testing: Formula_166
+    existing_gear.rotation - 3*angle + tooth_angle / 3
+    Avg: 776, Best: 652, Worst: 984
+
+[168/238]   Testing: Formula_167
+    existing_gear.rotation - 3*angle - tooth_angle / 3
+    Avg: 704, Best: 628, Worst: 788
+
+[169/238]   Testing: Formula_168
+    existing_gear.rotation + math.pi
+    Avg: 780, Best: 456, Worst: 1108
+
+[170/238]   Testing: Formula_169
+    existing_gear.rotation + math.pi + tooth_angle / 2
+    Avg: 979, Best: 624, Worst: 1184
+
+[171/238]   Testing: Formula_170
+    existing_gear.rotation + math.pi - tooth_angle / 2
+    Avg: 763, Best: 532, Worst: 880
+
+[172/238]   Testing: Formula_171
+    existing_gear.rotation + math.pi + tooth_angle / 4
+    Avg: 955, Best: 784, Worst: 1116
+
+[173/238]   Testing: Formula_172
+    existing_gear.rotation + math.pi - tooth_angle / 4
+    Avg: 819, Best: 652, Worst: 1052
+
+[174/238]   Testing: Formula_173
+    existing_gear.rotation + math.pi + tooth_angle / 3
+    Avg: 840, Best: 578, Worst: 1108
+
+[175/238]   Testing: Formula_174
+    existing_gear.rotation + math.pi - tooth_angle / 3
+    Avg: 853, Best: 456, Worst: 1188
+
+[176/238]   Testing: Formula_175
+    existing_gear.rotation - math.pi
+    Avg: 752, Best: 608, Worst: 1024
+
+[177/238]   Testing: Formula_176
+    existing_gear.rotation - math.pi + tooth_angle / 2
+    Avg: 880, Best: 664, Worst: 988
+
+[178/238]   Testing: Formula_177
+    existing_gear.rotation - math.pi - tooth_angle / 2
+    Avg: 701, Best: 468, Worst: 876
+
+[179/238]   Testing: Formula_178
+    existing_gear.rotation - math.pi + tooth_angle / 4
+    Avg: 623, Best: 472, Worst: 776
+
+[180/238]   Testing: Formula_179
+    existing_gear.rotation - math.pi - tooth_angle / 4
+    Avg: 892, Best: 818, Worst: 932
+
+[181/238]   Testing: Formula_180
+    existing_gear.rotation - math.pi + tooth_angle / 3
+    Avg: 569, Best: 558, Worst: 584
+
+[182/238]   Testing: Formula_181
+    existing_gear.rotation - math.pi - tooth_angle / 3
+    Avg: 775, Best: 692, Worst: 880
+
+[183/238]   Testing: Formula_182
+    existing_gear.rotation + math.pi + angle
+    Avg: 803, Best: 524, Worst: 1184
+
+[184/238]   Testing: Formula_183
+    existing_gear.rotation + math.pi + angle + tooth_angle / 2
+    Avg: 993, Best: 984, Worst: 1004
+
+[185/238]   Testing: Formula_184
+    existing_gear.rotation + math.pi + angle - tooth_angle / 2
+    Avg: 565, Best: 464, Worst: 768
+
+[186/238]   Testing: Formula_185
+    existing_gear.rotation + math.pi + angle + tooth_angle / 4
+    Avg: 858, Best: 764, Worst: 984
+
+[187/238]   Testing: Formula_186
+    existing_gear.rotation + math.pi + angle - tooth_angle / 4
+    Avg: 835, Best: 748, Worst: 880
+
+[188/238]   Testing: Formula_187
+    existing_gear.rotation + math.pi + angle + tooth_angle / 3
+    Avg: 792, Best: 652, Worst: 1064
+
+[189/238]   Testing: Formula_188
+    existing_gear.rotation + math.pi + angle - tooth_angle / 3
+    Avg: 965, Best: 612, Worst: 1176
+
+[190/238]   Testing: Formula_189
+    existing_gear.rotation + math.pi - angle
+    Avg: 631, Best: 532, Worst: 796
+
+[191/238]   Testing: Formula_190
+    existing_gear.rotation + math.pi - angle + tooth_angle / 2
+    Avg: 705, Best: 588, Worst: 784
+
+[192/238]   Testing: Formula_191
+    existing_gear.rotation + math.pi - angle - tooth_angle / 2
+    Avg: 640, Best: 510, Worst: 826
+
+[193/238]   Testing: Formula_192
+    existing_gear.rotation + math.pi - angle + tooth_angle / 4
+    Avg: 850, Best: 632, Worst: 988
+
+[194/238]   Testing: Formula_193
+    existing_gear.rotation + math.pi - angle - tooth_angle / 4
+    Avg: 893, Best: 760, Worst: 1000
+
+[195/238]   Testing: Formula_194
+    existing_gear.rotation + math.pi - angle + tooth_angle / 3
+    Avg: 812, Best: 540, Worst: 972
+
+[196/238]   Testing: Formula_195
+    existing_gear.rotation + math.pi - angle - tooth_angle / 3
+    Avg: 515, Best: 456, Worst: 554
+
+[197/238]   Testing: Formula_196
+    existing_gear.rotation - math.pi + angle
+    Avg: 837, Best: 536, Worst: 1188
+
+[198/238]   Testing: Formula_197
+    existing_gear.rotation - math.pi + angle + tooth_angle / 2
+    Avg: 902, Best: 588, Worst: 1188
+
+[199/238]   Testing: Formula_198
+    existing_gear.rotation - math.pi + angle - tooth_angle / 2
+    Avg: 643, Best: 524, Worst: 708
+
+[200/238]   Testing: Formula_199
+    existing_gear.rotation - math.pi + angle + tooth_angle / 4
+    Avg: 848, Best: 660, Worst: 1120
+
+[201/238]   Testing: Formula_200
+    existing_gear.rotation - math.pi + angle - tooth_angle / 4
+    Avg: 778, Best: 528, Worst: 918
+
+[202/238]   Testing: Formula_201
+    existing_gear.rotation - math.pi + angle + tooth_angle / 3
+    Avg: 763, Best: 696, Worst: 838
+
+[203/238]   Testing: Formula_202
+    existing_gear.rotation - math.pi + angle - tooth_angle / 3
+    Avg: 678, Best: 584, Worst: 864
+
+[204/238]   Testing: Formula_203
+    existing_gear.rotation - math.pi - angle
+    Avg: 785, Best: 558, Worst: 1068
+
+[205/238]   Testing: Formula_204
+    existing_gear.rotation - math.pi - angle + tooth_angle / 2
+    Avg: 664, Best: 486, Worst: 1000
+
+[206/238]   Testing: Formula_205
+    existing_gear.rotation - math.pi - angle - tooth_angle / 2
+    Avg: 663, Best: 588, Worst: 732
+
+[207/238]   Testing: Formula_206
+    existing_gear.rotation - math.pi - angle + tooth_angle / 4
+    Avg: 761, Best: 524, Worst: 946
+
+[208/238]   Testing: Formula_207
+    existing_gear.rotation - math.pi - angle - tooth_angle / 4
+    Avg: 615, Best: 460, Worst: 826
+
+[209/238]   Testing: Formula_208
+    existing_gear.rotation - math.pi - angle + tooth_angle / 3
+    Avg: 742, Best: 486, Worst: 926
+
+[210/238]   Testing: Formula_209
+    existing_gear.rotation - math.pi - angle - tooth_angle / 3
+    Avg: 598, Best: 494, Worst: 708
+
+[211/238]   Testing: Formula_210
+    existing_gear.rotation + math.pi + 2*angle
+    Avg: 811, Best: 584, Worst: 1068
+
+[212/238]   Testing: Formula_211
+    existing_gear.rotation + math.pi + 2*angle + tooth_angle / 2
+    Avg: 639, Best: 528, Worst: 776
+
+[213/238]   Testing: Formula_212
+    existing_gear.rotation + math.pi + 2*angle - tooth_angle / 2
+    Avg: 754, Best: 494, Worst: 1032
+
+[214/238]   Testing: Formula_213
+    existing_gear.rotation + math.pi + 2*angle + tooth_angle / 4
+    Avg: 656, Best: 588, Worst: 732
+
+[215/238]   Testing: Formula_214
+    existing_gear.rotation + math.pi + 2*angle - tooth_angle / 4
+    Avg: 886, Best: 792, Worst: 934
+
+[216/238]   Testing: Formula_215
+    existing_gear.rotation + math.pi + 2*angle + tooth_angle / 3
+    Avg: 1013, Best: 864, Worst: 1180
+
+[217/238]   Testing: Formula_216
+    existing_gear.rotation + math.pi + 2*angle - tooth_angle / 3
+    Avg: 643, Best: 490, Worst: 784
+
+[218/238]   Testing: Formula_217
+    existing_gear.rotation + math.pi - 2*angle
+    Avg: 897, Best: 536, Worst: 1172
+
+[219/238]   Testing: Formula_218
+    existing_gear.rotation + math.pi - 2*angle + tooth_angle / 2
+    Avg: 912, Best: 760, Worst: 996
+
+[220/238]   Testing: Formula_219
+    existing_gear.rotation + math.pi - 2*angle - tooth_angle / 2
+    Avg: 823, Best: 632, Worst: 1172
+
+[221/238]   Testing: Formula_220
+    existing_gear.rotation + math.pi - 2*angle + tooth_angle / 4
+    Avg: 855, Best: 520, Worst: 1056
+
+[222/238]   Testing: Formula_221
+    existing_gear.rotation + math.pi - 2*angle - tooth_angle / 4
+    Avg: 611, Best: 592, Worst: 628
+
+[223/238]   Testing: Formula_222
+    existing_gear.rotation + math.pi - 2*angle + tooth_angle / 3
+    Avg: 957, Best: 580, Worst: 1176
+
+[224/238]   Testing: Formula_223
+    existing_gear.rotation + math.pi - 2*angle - tooth_angle / 3
+    Avg: 1035, Best: 776, Worst: 1208
+
+[225/238]   Testing: Formula_224
+    existing_gear.rotation - math.pi + 2*angle
+    Avg: 841, Best: 748, Worst: 1008
+
+[226/238]   Testing: Formula_225
+    existing_gear.rotation - math.pi + 2*angle + tooth_angle / 2
+    Avg: 738, Best: 460, Worst: 912
+
+[227/238]   Testing: Formula_226
+    existing_gear.rotation - math.pi + 2*angle - tooth_angle / 2
+    Avg: 815, Best: 624, Worst: 934
+
+[228/238]   Testing: Formula_227
+    existing_gear.rotation - math.pi + 2*angle + tooth_angle / 4
+    Avg: 914, Best: 632, Worst: 1188
+
+[229/238]   Testing: Formula_228
+    existing_gear.rotation - math.pi + 2*angle - tooth_angle / 4
+    Avg: 727, Best: 612, Worst: 800
+
+[230/238]   Testing: Formula_229
+    existing_gear.rotation - math.pi + 2*angle + tooth_angle / 3
+    Avg: 773, Best: 692, Worst: 930
+
+[231/238]   Testing: Formula_230
+    existing_gear.rotation - math.pi + 2*angle - tooth_angle / 3
+    Avg: 963, Best: 684, Worst: 1220
+
+[232/238]   Testing: Formula_231
+    existing_gear.rotation - math.pi - 2*angle
+    Avg: 604, Best: 580, Worst: 652
+
+[233/238]   Testing: Formula_232
+    existing_gear.rotation - math.pi - 2*angle + tooth_angle / 2
+    Avg: 585, Best: 490, Worst: 772
+
+[234/238]   Testing: Formula_233
+    existing_gear.rotation - math.pi - 2*angle - tooth_angle / 2
+    Avg: 963, Best: 558, Worst: 1204
+
+[235/238]   Testing: Formula_234
+    existing_gear.rotation - math.pi - 2*angle + tooth_angle / 4
+    Avg: 709, Best: 536, Worst: 992
+
+[236/238]   Testing: Formula_235
+    existing_gear.rotation - math.pi - 2*angle - tooth_angle / 4
+    Avg: 696, Best: 456, Worst: 976
+
+[237/238]   Testing: Formula_236
+    existing_gear.rotation - math.pi - 2*angle + tooth_angle / 3
+    Avg: 803, Best: 580, Worst: 932
+
+[238/238]   Testing: Formula_237
+    existing_gear.rotation - math.pi - 2*angle - tooth_angle / 3
+    Avg: 923, Best: 584, Worst: 1204
+
+
+======================================================================
+Best formula found: Formula_013
+Code: -existing_gear.rotation + angle - tooth_angle / 3
+Best score: 456
+======================================================================

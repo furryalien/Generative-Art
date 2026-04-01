@@ -2,11 +2,13 @@ from graphics.Graphics import setup, export
 from graphics.Geometry import Line, background, color, stroke
 from graphics.Helpers import map
 from graphics.Vector import Vector as vec2
+from graphics.LineWidth import init_line_width, apply_line_width
+import graphics.Config as config
 import random
 import math
 
-# Some variables
-width, height = 1000, 1000
+# Some variables - can be overridden by paper size argument
+width, height = config.paper_size if config.paper_size else (1000, 1000)
 
 
 # Main function
@@ -57,15 +59,18 @@ def draw():
                     p0 = my_lines[(j+(num_lines-1)*(i-1))].get_lerp(math.pow(map(k, 0, lerp_lines-1, 0, 1), 1))
                     p1 = my_lines[(j+(num_lines-1)*i)].get_lerp(math.pow(map(k, 0, lerp_lines-1, 0, 1), 1))
                     Line(p0[0], p0[1], p1[0], p1[1]).draw()
+                    apply_line_width()
                     stroke()
 
     for line in my_lines:
         line.draw()
+        apply_line_width()
         stroke()
 
 
 def main():
     setup(width, height)
+    init_line_width(config.line_width_mode, config.line_width_value)
     draw()
     export()
 

@@ -1,6 +1,8 @@
 from graphics.Graphics import setup, export
 from graphics.Geometry import Line, background, color, stroke
 from graphics.Vector import Vector as vec2
+from graphics.LineWidth import init_line_width, apply_line_width
+import graphics.Config as config
 import math
 import random
 
@@ -8,8 +10,8 @@ import random
 # This script is a bit slow #
 #############################
 
-# Variables
-width, height = 1000, 1000
+# Variables - can be overridden by paper size argument
+width, height = config.paper_size if config.paper_size else (1000, 1000)
 center_x, center_y = width/2.0, height/2.0
 border = 20
 
@@ -127,11 +129,13 @@ def draw():
                 break
 
         walkers[i].draw()
+        apply_line_width()
         stroke()
 
 
 def main():
     setup(width, height)
+    init_line_width(config.line_width_mode, config.line_width_value)
     draw()
     export()
 

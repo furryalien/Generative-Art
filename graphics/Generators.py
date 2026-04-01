@@ -1,5 +1,14 @@
 from .Vector import Vector as vec2
-from noise import pnoise2
+try:
+    # Try the original noise module (requires C++ compilation)
+    from noise import pnoise2
+except ImportError:
+    # Fall back to pure Python perlin-noise module
+    from perlin_noise import PerlinNoise
+    # Create a wrapper function to match pnoise2 API
+    _perlin = PerlinNoise(octaves=4, seed=0)
+    def pnoise2(x, y):
+        return _perlin([x, y])
 from random import randint, choices
 from math import cos
 from math import sin
